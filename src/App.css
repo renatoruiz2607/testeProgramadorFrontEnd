@@ -1,0 +1,519 @@
+body {
+  margin: 0;
+}
+
+.firstBackgroundBlock {
+  background-color: #111111;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 900px;
+}
+
+header {
+  background: #111111;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 90px auto;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  right: 50%;
+}
+
+  header a {
+    font-size: 19px;
+    line-height: 26px;
+    font-family: dana;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  header img {
+    height: 52px;
+  }
+
+/* .registerBackground {
+  background-color: #FFFFFF;
+  opacity: 10%;
+} */
+
+.productDesignBox {
+  justify-content: space-between;
+  background: #FFFFFF;
+  width: 80%;
+  height: 700px;
+  box-shadow: 50px 50px 99px #2222220F;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 90px 50px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-top: -250px;
+}
+
+  .productDesignTitle {
+    width: 550px;
+    height: 67px;
+    font-size: 50px;
+    line-height: 67px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+
+  .productFactoryTitle {
+    font-size: 38px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  /* .linearGradient {
+    margin-left: 40px;
+    font-size: 126px;
+    background: transparent linear-gradient(3deg, #030504 0%, #FFFFFF 100%);
+  } */
+
+  .productDesignText {
+    font-size: 23px;
+    line-height: 55px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 470px;
+    height: 144px;
+    line-break: auto;
+    margin-top: 270px;
+    margin-left: 40px;
+    display: inline-block;
+  }
+
+  .productDesingButton {
+    display: flex;
+    background-color: #F46632;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    width: 350px;
+    height: 72px;
+    border-radius: 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+
+  .productDesignImg {
+    width: 500px;
+    height: 700px;
+  }
+
+  .divArrowLeft {
+    height: 100%;
+    display: flex;
+  }
+  
+  .arrowLeft {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    display: flex;
+  }
+  
+  .divArrowRight {
+    height: 100%;
+    display: flex;
+  }
+  
+  .arrowRight {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    padding: 3px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    display: flex;
+  }
+
+.secondBackgroundBlock {
+  background-color: #FAFAFA;
+  width: 100vw;
+  height: 1920px;
+}
+
+.aboutUsBox {
+  margin: 0 auto;
+  width: 85%;
+  height: 720px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -1200px;
+  display: inline-block;
+}
+
+  .aboutUsUpper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 121px;
+    margin-right: 121px;
+    height: 354px;
+    width: 80%;
+    position: absolute;
+  }
+
+  .productFactoryBox {
+    width: 500px;
+    height: 386px;
+  }
+
+  .productFactoryTv {
+    width: 400px;
+    height: 240px;
+    background-color: #101010;
+    border-radius: 30px;
+    display: flex;
+    padding: 32px;
+    position: relative;
+  }
+
+  .productFactoryTvImg {
+    width: 210px;
+    height: 100px;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .productFactoryPlayImg {
+    width: 32px;
+    height: 32px;
+    align-self: flex-end;
+    position: absolute;
+    left: 86%;
+  }
+
+  .aboutUsTitleBox {
+    position: relative;
+  }
+
+  .aboutUsTitle {
+    font-size: 32px;
+    line-height: 43px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 65px;
+  }
+
+  .aboutUsTitleBackground {
+    font-size: 120px;
+    line-height: 159px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.05;
+  }
+
+  .aboutUsLinks {
+    height: 138px;
+    display: flex;
+  }
+
+  .aboutUsLinksAlign {
+    display: inline-grid;
+  }
+
+  .aboutUsLinks img {
+    width: 28px;
+  }
+
+  .aboutUsBackground {
+    background-color: #FFFFFF;
+    box-shadow: 50px 50px 99px #4141410F;
+    border-radius: 30px;
+    width: 100%;
+    height: 650px;
+    margin-top: 172px;
+    display: flex;
+  }
+
+.aboutUsText {
+    font-size: 19px;
+    line-height: 50px;
+    font-family: Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 40px 121px;
+    align-self: flex-end;
+    line-break: auto;
+  }
+
+.courseExperienceBox {
+  margin: 0 auto;
+  width: 80%;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -230px;
+  display: inline-block;
+  background-color: #FFFFFF;
+  box-shadow: 50px 50px 99px #2929290F;
+  border-radius: 30px;
+  padding: 60px 50px;
+}
+
+  .courseExperienceTitleBox {
+    position: relative;
+    text-align: center;
+  }
+
+  .courseExperienceTitle {
+    font-size: 32px;
+    line-height: 43px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 155px;
+  }
+
+  .courseExperienceTitleBackground {
+    font-size: 120px;
+    line-height: 159px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.05;
+  }
+
+  .courseExperienceButtonsBox {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  .courseExperienceButtonsBox button {
+    background: none;
+    border: 1px solid #000000;
+    color: #0F0F0F;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    outline: none;
+  }
+
+  .afterButton {
+    border-radius: 16px 0 0 16px;
+    width: 250px;
+  }
+
+  .duringButton {
+    width: 230px;
+  }
+
+  .beforeButton {
+    border-radius: 0 16px 16px 0;
+    width: 250px;
+  }
+
+  .courseExperienceBottomAlign {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 45px
+  }
+
+  .courseExperienceBottomBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .courseExperienceImg {
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+  }
+
+  .courseExperienceBottomBox span {
+    line-break: auto;
+    align-self: center;
+    font-size: 20px;
+    line-height: 48px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+  }
+
+.thirdBackgroundBlock {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 3800px;
+}
+
+.sessionsBox {
+  margin: 0 auto;
+  width: 80%;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  margin-top: -3170px;
+}
+
+  .sessionsTitleBox {
+    position: relative;
+    text-align: center;
+  }
+
+  .sessionsTitle {
+    position: absolute;
+    font-size: 34px;
+    line-height: 46px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+    margin-top: 65px;
+    margin-left: 153px;
+  }
+
+  .sessionsTitleBackground {
+    font-size: 120px;
+    line-height: 159px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.05;
+  }
+
+  .sessions {
+    width: 100%;
+    height: 2863px;
+    border-left: 2px solid #F8F8F8;
+    margin: 0 auto;
+  }
+
+  .sessionHeader {
+    padding: 0 20px 0 20px;
+    display: flex;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    margin-left: 20px;
+    height: 53px;
+    align-items: center;
+    font-size: 19px;
+    line-height: 26px;
+    font-family: Product Sans;
+    letter-spacing: 0;
+    color: #000000;
+  }
+
+  .sessionNumberTitle {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: bold;
+    width: 25%;
+  }
+
+  .clockImg {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+  }
+
+  .calendarImg {
+    width: 23px;
+    height: 24px;
+    margin-right: 7px;
+  }
+
+  .viewImg {
+    width: 29px;
+    height: 29px;
+    margin-right: 7px;
+  }
+
+  .sessionsClock {
+    display: flex;
+    align-items: center;
+    width: 25%;
+  }
+
+  .sessionsCalendar {
+    display: flex;
+    align-items: center;
+    width: 25%;
+  }
+
+  .sessionsView {
+    display: flex;
+    align-items: center;
+    width: 25%;
+  }
+
+  .sessionBody {
+    display: flex;
+    width: 90%;
+    height: 92px;
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+  }
+
+  .profilePicturesBox {
+    display: flex;
+    width: 280px;
+    margin-right: 20px;
+  }
+
+  .profileImg {
+    margin-right: 20px;
+  }
+
+  .sessionBody img {
+    width: 87px;
+    height: 87px;
+    border-radius: 10px;
+  }
+
+  .sessionBody span {
+    height: 92px;
+    width: 885px;
+    line-break: auto;
+    text-align: left;
+    align-self: center;
+  }
