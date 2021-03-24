@@ -4,19 +4,19 @@ function App() {
   return (
     <div>
       <header>
-        <div class="firstHeaderAlign">
+        <nav class="firstHeaderAlign">
           <img src="/images/Grupo 368@2x.png" alt="headerLogoImg" />
           <a href="">Projects</a>
           <a href="">Partners</a>
           <a href="">FAQ</a>
-        </div>
-        <div class="secondHeaderAlign">
+        </nav>
+        <nav class="secondHeaderAlign">
           <a href="">Masters</a>
           <a href="">Classes</a>
           <a href="">Course Experience</a>
           <a href="">About us</a>
           <a href="">Register</a>
-        </div>
+        </nav>
       </header>
 
       <div class="firstBackgroundBlock"></div>
@@ -27,9 +27,9 @@ function App() {
         </div>
         <div class="productDesignWrapperAlign">
           <div class="productDesignWrapper">
-            <span class="productDesignTitle">Product Design Course</span>
+            <h1 class="productDesignTitle">Product Design Course</h1>
             <div>
-              <span class="productFactoryTitle">Product Factory</span>
+              <h2 class="productFactoryTitle">Product Factory</h2>
             </div>
             <span class="productDesignText">Learn how design thinking, user research, business vision and marketing, and finally designing and creating real digital products for real users.</span>
             <a href="" class="productDesingButton">Start Register</a>
@@ -54,15 +54,17 @@ function App() {
             </div>
           </div>
           <div class="aboutUsTitleBox">
-            <span class="aboutUsTitle">About us</span>
+            <h1 class="aboutUsTitle">About us</h1>
             <span class="aboutUsTitleBackground">About</span>
           </div>
           <div class="aboutUsLinks">
-            <div class="aboutUsLinksAlign">
-              <a href=""><img src="/images/facebook-square-brands@2x.png" alt="facebookImg" /></a>
-              <a href=""><img src="/images/twitter-brands@2x.png" alt="twitterImg" /></a>
-              <a href=""><img src="/images/instagram-brands(1)@2x.png" alt="instagramImg" /></a>
-            </div>
+            <nav classa="aboutUsLinksNav">
+              <ul class="aboutUsLinksAlign">
+                <li><a href=""><img src="/images/facebook-square-brands@2x.png" alt="facebookImg" /></a></li>
+                <li><a href=""><img src="/images/twitter-brands@2x.png" alt="twitterImg" /></a></li>
+                <li><a href=""><img src="/images/instagram-brands(1)@2x.png" alt="instagramImg" /></a></li>
+              </ul>
+            </nav>
           </div>
         </div>
         <div class="aboutUsBackground">
@@ -72,7 +74,7 @@ function App() {
 
       <div class="courseExperienceBox">
         <div class="courseExperienceTitleBox">
-          <span class="courseExperienceTitle">Course Experience</span>
+          <h1 class="courseExperienceTitle">Course Experience</h1>
           <span class="courseExperienceTitleBackground">Experience</span>
         </div>
         <div class="courseExperienceButtonsBox">
@@ -93,14 +95,14 @@ function App() {
       <div class="sessionsBox">
 
         <div class="sessionsTitleBox">
-          <span class="sessionsTitle">Sessions</span>
+          <h1 class="sessionsTitle">Sessions</h1>
           <span class="sessionsTitleBackground">Sessions</span>
         </div>
 
         <div class="sessions">
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">First session</span>
+            <h2 class="sessionNumberTitle">First session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -122,7 +124,7 @@ function App() {
           </div>
           
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Second session</span>
+            <h2 class="sessionNumberTitle">Second session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -144,7 +146,7 @@ function App() {
           </div>
           
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Third session</span>
+            <h2 class="sessionNumberTitle">Third session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -166,7 +168,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Fourth session</span>
+            <h2 class="sessionNumberTitle">Fourth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -188,7 +190,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Fifth session</span>
+            <h2 class="sessionNumberTitle">Fifth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -211,7 +213,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Sixth session</span>
+            <h2 class="sessionNumberTitle">Sixth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -234,7 +236,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Seventh session</span>
+            <h2 class="sessionNumberTitle">Seventh session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -256,7 +258,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Eight session</span>
+            <h2 class="sessionNumberTitle">Eigth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -279,7 +281,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Ninth session</span>
+            <h2 class="sessionNumberTitle">Ninth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>
@@ -302,7 +304,7 @@ function App() {
           </div>
 
           <div class="sessionHeader">
-            <span class="sessionNumberTitle">Tenth meeting</span>
+            <h2 class="sessionNumberTitle">Tenth session</h2>
             <div class="sessionsClock">
               <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
               <span>Duration: 6 hour</span>

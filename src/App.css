@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .firstBackgroundBlock {
   background-color: #111111;
   top: 0px;
@@ -340,6 +344,10 @@ header {
     display: inline-grid;
   }
 
+  .aboutUsLinksNav {
+    display: flex;
+  }
+
   .aboutUsLinks img {
     width: 28px;
   }
@@ -395,7 +403,7 @@ header {
     font-weight: bold;
     position: absolute;
     margin-top: 68px;
-    margin-left: 155px;
+    margin-left: 461px;
   }
 
   .courseExperienceTitleBackground {
@@ -498,7 +506,7 @@ header {
     letter-spacing: 0;
     color: #000000;
     margin-top: 65px;
-    margin-left: 153px;
+    margin-left: 523px;
   }
 
   .sessionsTitleBackground {
@@ -512,7 +520,7 @@ header {
 
   .sessions {
     width: 100%;
-    height: 2863px;
+    height: 2020px;
     border-left: 2px solid #F8F8F8;
     margin: 0 auto;
   }
