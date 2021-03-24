@@ -12,7 +12,7 @@ body {
 
 header {
   background: #111111;
-  display: flex;
+  display: block;
   justify-content: space-between;
   width: 80%;
   margin: 90px auto;
@@ -22,6 +22,12 @@ header {
   left: 50%;
   right: 50%;
 }
+
+  @media (min-width: 1024px) {
+    header {
+      display: flex;
+    }
+  }
 
   header a {
     font-size: 19px;
@@ -36,6 +42,34 @@ header {
     height: 52px;
   }
 
+  .firstHeaderAlign {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    @media (min-width: 1024px) {
+      .firstHeaderAlign {
+        width: 40%;
+      }
+    }
+
+  .secondHeaderAlign {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    @media (min-width: 1024px) {
+      .secondHeaderAlign {
+        width: 58%;
+      }
+    }  
+
+
+
 /* .registerBackground {
   background-color: #FFFFFF;
   opacity: 10%;
@@ -45,7 +79,6 @@ header {
   justify-content: space-between;
   background: #FFFFFF;
   width: 80%;
-  height: 700px;
   box-shadow: 50px 50px 99px #2222220F;
   border-radius: 30px;
   margin: 0 auto;
@@ -61,8 +94,8 @@ header {
   .productDesignTitle {
     width: 550px;
     height: 67px;
-    font-size: 50px;
-    line-height: 67px;
+    font-size: 40px;
+    line-height: 50px;
     font-family: Product Sans;
     letter-spacing: 0px;
     color: #000000;
@@ -70,6 +103,20 @@ header {
     font-weight: bold;
     margin-left: 40px;
   }
+
+    @media (min-width: 768px) {
+      .productDesignTitle {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .productDesignTitle {
+        font-size: 50px;
+        line-height: 67px;
+      }
+    }
 
   .productFactoryTitle {
     font-size: 38px;
@@ -89,17 +136,21 @@ header {
 
   .productDesignText {
     font-size: 23px;
-    line-height: 55px;
+    line-height: 40px;
     font-family: Product Sans;
     letter-spacing: 0px;
     color: #000000;
-    width: 470px;
-    height: 144px;
     line-break: auto;
-    margin-top: 270px;
+    margin-top: 150px;
     margin-left: 40px;
     display: inline-block;
   }
+
+    @media (min-width: 1024px) {
+      .productDesignTitle {
+        line-height: 55px;
+      }
+    }  
 
   .productDesingButton {
     display: flex;
@@ -120,40 +171,78 @@ header {
   }
 
   .productDesignImg {
-    width: 500px;
-    height: 700px;
+    width: 100%;
   }
 
   .divArrowLeft {
-    height: 100%;
+    width: 5%;
     display: flex;
   }
   
   .arrowLeft {
-    border: solid black;
-    border-width: 0 4px 4px 0;
-    padding: 3px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+    transform: rotate(180deg);
     width: 35px;
-    height: 35px;
     align-self: center;
     display: flex;
   }
   
+  .productDesignWrapper {
+    width: 100%;
+  }
+
+    @media (min-width: 768px) {
+      .productDesignWrapper {
+        width: 60%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .productDesignWrapper {
+        width: 60%;
+      }
+    }
+
+  .productDesignImgWrapper {
+    width: 100%;
+  }
+
+    @media (min-width: 768px) {
+      .productDesignImgWrapper {
+        width: 40%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .productDesignImgWrapper {
+        width: 40%;
+      }
+    }
+
+  .productDesignWrapperAlign {
+    width: 90%;
+    display: block;
+  }
+
+    @media (min-width: 768px) {
+      .productDesignWrapperAlign {
+        display: flex;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .productDesignWrapperAlign {
+        display: flex;
+      }
+    }
+
   .divArrowRight {
-    height: 100%;
+    width: 5%;
     display: flex;
+    justify-content: flex-end;
   }
   
   .arrowRight {
-    border: solid black;
-    border-width: 0 4px 4px 0;
-    padding: 3px;
-    transform: rotate(315deg);
-    -webkit-transform: rotate(315deg);
     width: 35px;
-    height: 35px;
     align-self: center;
     display: flex;
   }

@@ -4,36 +4,42 @@ function App() {
   return (
     <div>
       <header>
-        <img src="/images/Grupo 368@2x.png" alt="headerLogoImg" />
-        <a href="">Projects</a>
-        <a href="">Partners</a>
-        <a href="">FAQ</a>
-        <a href="">Masters</a>
-        <a href="">Classes</a>
-        <a href="">Course Experience</a>
-        <a href="">About us</a>
-        <a href="">Register</a>
+        <div class="firstHeaderAlign">
+          <img src="/images/Grupo 368@2x.png" alt="headerLogoImg" />
+          <a href="">Projects</a>
+          <a href="">Partners</a>
+          <a href="">FAQ</a>
+        </div>
+        <div class="secondHeaderAlign">
+          <a href="">Masters</a>
+          <a href="">Classes</a>
+          <a href="">Course Experience</a>
+          <a href="">About us</a>
+          <a href="">Register</a>
+        </div>
       </header>
 
       <div class="firstBackgroundBlock"></div>
 
       <div class="productDesignBox">
         <div class="divArrowLeft">
-          <i class="arrowLeft"></i>
+          <img src="/images/Screen Shot 2021-03-23 at 21.17.40.png" alt="arrowLeft" class="arrowLeft"/>
         </div>
-        <div>
-          <span class="productDesignTitle">Product Design Course</span>
-          <div>
-            <span class="productFactoryTitle">Product Factory</span>
+        <div class="productDesignWrapperAlign">
+          <div class="productDesignWrapper">
+            <span class="productDesignTitle">Product Design Course</span>
+            <div>
+              <span class="productFactoryTitle">Product Factory</span>
+            </div>
+            <span class="productDesignText">Learn how design thinking, user research, business vision and marketing, and finally designing and creating real digital products for real users.</span>
+            <a href="" class="productDesingButton">Start Register</a>
           </div>
-          <span class="productDesignText">Learn how design thinking, user research, business vision and marketing, and finally designing and creating real digital products for real users.</span>
-          <a href="" class="productDesingButton">Start Register</a>
-        </div>
-        <div>
-          <img src="/images/Screen Shot 2021-03-22 at 23.34.52.png" alt="productDesignImg" class="productDesignImg" />
+          <div class="productDesignImgWrapper">
+            <img src="/images/Screen Shot 2021-03-22 at 23.34.52.png" alt="productDesignImg" class="productDesignImg" />
+          </div>
         </div>
         <div class="divArrowRight">
-          <i class="arrowRight"></i>
+        <img src="/images/Screen Shot 2021-03-23 at 21.17.40.png" alt="arrowRight" class="arrowRight"/>
         </div>
       </div>
 
