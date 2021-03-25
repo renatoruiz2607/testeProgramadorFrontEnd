@@ -1,23 +1,25 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import Header from './components/Header.jsx'
+import Sessions from './components/Sessions.jsx'
 
 function App() {
-  return (
+
+  const sessionsList = [
+    {
+      title: 'First session',
+      text: 'In the first session, we will consider design thinking and its understanding as well as different models of design thinking and the design process, and we will better remember this process with various examples.<br /> We will also discuss problem solving techniques together and understand the concept of user experience and usability.',
+      images: [
+        {
+          path: "/images/Livello_5@2x.png",
+        },
+      ]
+    },
+  ]
+
+  return ( 
     <div>
-      <header>
-        <nav class="firstHeaderAlign">
-          <img src="/images/Grupo 368@2x.png" alt="headerLogoImg" />
-          <a href="">Projects</a>
-          <a href="">Partners</a>
-          <a href="">FAQ</a>
-        </nav>
-        <nav class="secondHeaderAlign">
-          <a href="">Masters</a>
-          <a href="">Classes</a>
-          <a href="">Course Experience</a>
-          <a href="">About us</a>
-          <a href="">Register</a>
-        </nav>
-      </header>
+      <Header />
 
       <div class="firstBackgroundBlock"></div>
 
@@ -100,7 +102,14 @@ function App() {
         </div>
 
         <div class="sessions">
-
+          {
+            sessionsList.forEach(item => {
+              console.log("Renato", item)
+              return (
+                <Sessions {...item}/>
+              )
+            })
+          }
           <div class="sessionHeader">
             <h2 class="sessionNumberTitle">First session</h2>
             <div class="sessionsClock">
