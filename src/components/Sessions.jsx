@@ -1,35 +1,36 @@
 import React from 'react'
 
+
 const SessionImg = ({path}) => (
-    <img src={path} alt="profileImg" class="profileImg" />
+    <img src={path} alt="profileImg" className="profileImg" />
 )
 
 const Sessions = ({title, text, images}) => (
     <>
-        <div class="sessionHeader">
-            <h2 class="sessionNumberTitle">{ title }</h2>
-            <div class="sessionsClock">
-                <img src="/images/Livello_5@2x.png" alt="clockImg" class="clockImg" />
+        <div className="sessionHeader">
+            <h2 className="sessionNumberTitle">{ title }</h2>
+            <div className="sessionsClock">
+                <img src="/images/Livello_5@2x.png" alt="clockImg" className="clockImg" />
                 <span>Duration: 6 hour</span>
             </div>
-            <div class="sessionsCalendar">
-                <img src="/images/event@2x.png" alt="calendarImg" class="calendarImg" />
+            <div className="sessionsCalendar">
+                <img src="/images/event@2x.png" alt="calendarImg" className="calendarImg" />
                 <span>Date: November 5</span>
             </div>
-            <div class="sessionsView">
-                <img src="/images/Grupo 845@2x.png" alt="viewImg" class="viewImg" />
+            <div className="sessionsView">
+                <img src="/images/Grupo 845@2x.png" alt="viewImg" className="viewImg" />
                 <span>View video</span>
             </div>
         </div>
-        <div class="sessionBody">
-            <div class="profilePicturesBox">
+        <div className="sessionBody">
+            <div className="profilePicturesBox">
                 {
-                    images.forEach(item => (
-                        <SessionImg {...item}/>
+                    images.map(item => (
+                        <SessionImg key={ item.path } {...item}/>
                     ))
                 }
             </div>
-            <span>{ text }</span>
+            <span dangerouslySetInnerHTML={{ __html:text }}></span>
         </div>
     </>
 )
